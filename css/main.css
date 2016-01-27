@@ -1,0 +1,83 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+body { 
+	background-image:url(../img/horo.png);
+	height: 900px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+form {
+	padding-top: 150px
+}
+label {
+	color:#fff;
+	display: block;
+    padding-bottom: 20px;
+    font-family: 'Play', sans-serif;
+    font-size: 24px
+}
+
+div {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#results {
+	padding-top: 50px;
+	width: 50%;
+	text-align: center;
+	margin-left: 25%;
+	border-radius: 4px
+}
+
+#results p {
+color: #555;
+background-color: #fff;
+
+}
+
+.bigbar {
+	height: 40px;
+	width: 300px;
+	border-radius: 4px
+}
+
+button {
+	background: #cb60b3; /* Old browsers */
+	background: -moz-linear-gradient(top, #cb60b3 0%, #c146a1 50%, #a80077 53%, #db36a4 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #cb60b3 0%,#c146a1 50%,#a80077 53%,#db36a4 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #cb60b3 0%,#c146a1 50%,#a80077 53%,#db36a4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #eee;
+    text-transform: uppercase;
+    position: relative;
+    padding: 10px 20px;
+    margin-right: 170px;
+    margin-top: 30px;
+	box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+	-webkit-transition: all .2s ease-in-out;
+     transition: all .2s ease-in-out; 
+}
+
+
+button:hover {
+-webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+        transform: scale(1.1);
+
+}
